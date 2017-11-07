@@ -1,15 +1,19 @@
 const geoip = require('geoip-country-lite')
-
 const express = require('express')
+const path = require('path')
 const app = express()
 const port = 3000
 
+const resolveIp = request => {
+  if (request.ip.startsWith('::ffff:')) return request.ip.substring(7)
+  else return request.ip
+}
+
 app.get('/', (req, res) => {
-  let ip
-  if (req.ip.startsWith('::ffff:')) ip = req.ip.substring(7)
-  else ip = req.ip
+  const ip = resolveIp(req)
   console.log(ip)
-  res.send(geoip.lookup(ip))
+
+  res.sendFile(path.join(__dirname, '/index.html'))
 })
 
 app.listen(port, () => console.log(`Metanoia listening on port ${port}`))
