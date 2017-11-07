@@ -2,9 +2,9 @@
   "name": "metanoia",
   "version": "0.0.1",
   "description": "Convert IP addresses to Battle.net Regions.",
-  "main": "Metanoia.js",
+  "main": "metanoia.js",
   "scripts": {
-    "start": "node Metanoia.js",
+    "start": "node metanoia.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/Alcha/Metanoia#readme",
   "dependencies": {
-    "express": "^4.16.2",
-    "geoip-country-lite": "^1.0.0"
+    "express": "4.16.2",
+    "geoip-country-lite": "1.0.0",
+    "mongodb": "2.2.33"
+  },
+  "devDependencies": {
+    "standard": "10.0.3"
   }
 }
