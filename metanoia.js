@@ -63,7 +63,6 @@ const convertDocToRegion = doc => {
  *
  * @param {String} country
  */
-
 const getRegion = country => {
   return new Promise((resolve, reject) => {
     // Connect to the MongoDB
