@@ -51,8 +51,11 @@ const convertDocToRegion = doc => {
       if (doc['alpha-2'] === 'AU') return Promise.resolve('US')
       else return Promise.resolve('EU')
 
-    default:
+    case 'Europe':
       return Promise.resolve('EU')
+
+    default:
+      return Promise.resolve('US')
   }
 }
 
