@@ -34,9 +34,6 @@ const convertDocToRegion = doc => {
         case 'TW':
           return Promise.resolve('TW')
 
-        case 'CN':
-          return Promise.resolve('CW')
-
         case 'KR':
           return Promise.resolve('KR')
 
