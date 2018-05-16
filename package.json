@@ -1,6 +1,6 @@
 {
   "name": "metanoia",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert IP addresses to Battle.net Regions.",
   "main": "metanoia.js",
   "scripts": {
