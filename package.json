@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/Alcha/Metanoia#readme",
   "dependencies": {
-    "express": "4.16.2",
+    "express": "4.16.3",
     "geoip-country-lite": "1.0.0",
-    "mongodb": "^2.2.33",
+    "mongodb": "^3.0.10",
     "snyk": "^1.78.1"
   },
   "devDependencies": {
-    "standard": "10.0.3"
+    "standard": "11.0.1"
   },
   "snyk": true
 }
