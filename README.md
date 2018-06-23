@@ -1,5 +1,7 @@
 # Metanoia
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Alcha/Metanoia.svg)](https://greenkeeper.io/)
+
 Convert IP addresses to Battle.net regions.
 
 ## Setup
