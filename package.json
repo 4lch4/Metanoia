@@ -23,7 +23,7 @@
     "express": "4.16.2",
     "geoip-country-lite": "1.0.0",
     "mongodb": "^2.2.33",
-    "snyk": "^1.78.1"
+    "snyk": "^1.849.0"
   },
   "devDependencies": {
     "standard": "10.0.3"
